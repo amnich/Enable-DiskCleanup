@@ -1,14 +1,16 @@
 function Enable-DiskCleanup {
 <#
 	.SYNOPSIS
-		Enable the Disk Cleanup tool.
+	Enable the Disk Cleanup tool.
 
 	.DESCRIPTION
-		Enable the Disk Cleanup tool by copying files from WinSxS folder.
-		Works for 
-			Windows Server 2008 (32 and 64 bit)
-			Windows Server 2008 R2
-			Windows Server 2012
+	Enable the Disk Cleanup tool by copying files from WinSxS folder.
+	Works for 
+		Windows Server 2008 (32 and 64 bit)
+		Windows Server 2008 R2
+		Windows Server 2012
+	.NOTES 
+	THIS IS NOT AN OFFICIAL MICROSOFT SOLUTION. USE AT YOUR OWN RISK.
 #>
 
 	if ((test-path $env:SystemRoot\System32\cleanmgr.exe) -and (test-path $env:SystemRoot\System32\en-US\Cleanmgr.exe.mui)){
