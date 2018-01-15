@@ -5,3 +5,5 @@ Works for
 - Windows Server 2008 (32 and 64 bit)
 - Windows Server 2008 R2
 - Windows Server 2012
+
+DISCLAIMER: THIS IS NOT AN OFFICIAL MICROSOFT SOLUTION. USE AT YOUR OWN RISK.
